@@ -1,7 +1,8 @@
-function percentage10(price){
-    return price - (price * 10/100)
-    
-}
+let num1 = 3
+let num2 = 2
 
+let total = num1 + num2
 
-console.log(percentage10(40))
+console.log(total++)
+
+console.log(total)
