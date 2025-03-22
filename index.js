@@ -1,6 +1,5 @@
 i = 1
-
-while(i <= 10){
-    console.log('número ', i)
+do{
+    console.log('numero ', i)
     i++
-}
+}while(i <= 10)
