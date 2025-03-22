@@ -1,10 +1,13 @@
-let temIdadeMinima = true
-let temTituloEleitor = true
+let driverSpeed = 110
 
-let podeVotar = temIdadeMinima && temTituloEleitor
+if (driverSpeed > 110){
+    console.log('Driving too fast')
+}
 
-console.log('Pode votar: '+ podeVotar)
+else if (driverSpeed > 40){
+    console.log('OK')
+}
 
-let podeViajar = !podeVotar
-
-console.log('Pode viajar: '+ podeViajar)
+else{
+    console.log('Driving too slow')
+}
