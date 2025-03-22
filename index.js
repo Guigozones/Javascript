@@ -1,5 +1,10 @@
-const friends = ['Marcos', 'Ana', 'Gabriel']
+let i = 1
 
-for(let i of friends){
-    console.log(i)
+while(i <= 10){
+    if(i == 8){
+        console.log('Numero ', i, ' encerrando...')
+        break
+    }
+    console.log('Numero ', i)
+    i++
 }
